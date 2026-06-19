@@ -1,0 +1,29 @@
+{
+    "name": "one2joe/botman-driver-line",
+    "description": "LINE Messaging API driver for BotMan",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "botman/botman": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Drivers\\Line\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BotMan\\Drivers\\Line\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "one2joe"
+        }
+    ]
+}
